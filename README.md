@@ -1,4 +1,26 @@
-# Getting Started with Create React App
+# Gallery based on Unsplash API
+## Preview Site  ➡️ [tap here](https://patrycja-dz.github.io/gallery-with-api/)
+This  is  a  project  created  for Eclipse’s FE Developer Test for consuming API and rendering HTML/CSS. 
+I chose React as my  3rd party library.
+
+
+
+## Used technologies 
+<p>
+<img alt="React" src="https://img.shields.io/badge/React-FFF?logo=React&logoColor=ColorName&style=ShieldStyle" />
+<img alt="npm" src="https://img.shields.io/badge/npm-ddd?logo=npm&logoColor=ColorName&style=ShieldStyle" />
+<img alt="CSS" src="https://img.shields.io/badge/css-EC5990?logo=css&logoColor=ColorName&style=ShieldStyle" />
+<img alt="JSX" src="https://img.shields.io/badge/JSX-219ebc?logo=jsx&logoColor=ColorName&style=ShieldStyle" />
+
+</p>
+
+## Used concepts
+✅ Hooks : useState, useEffecte<br>
+✅ Fetch Api<br>
+✅ AXIOS<br>
+✅ ES6 + features <br>
+✅ Flexbox <br>
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
