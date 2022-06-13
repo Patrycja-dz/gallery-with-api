@@ -10,12 +10,10 @@ body {
 
 .gallery {
     margin: 20px auto;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 0 10px;
 }
 
 .gallery-wrapper {
@@ -48,6 +46,7 @@ body {
 .author,
 .date{
     font-weight: 700;
+    margin: 0 5px;
 }
 .gallery-figure{
     margin-bottom: -100px;
