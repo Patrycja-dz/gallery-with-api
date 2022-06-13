@@ -33,7 +33,7 @@ function Gallery() {
       <div className="gallery">
       {images && images.map(image => (
         <div className="gallery-wrapper" >
-         <SinglePhoto url={image.urls.small} key={image.id} alt={image.alt_description} description = {image.description} author={image.user.name} data={image.created_at}/>
+         <SinglePhoto  key={image.id}   image={image}/>
     </div>
        ))}
       </div>
@@ -41,10 +41,5 @@ function Gallery() {
   );
   
 }
-// const getDate = () =>{
-//   const result = image.data.toString().subStr(0,10)
-//   console.log(result)
-//  }
-//  getDate()
 
 export default Gallery;

@@ -45,27 +45,36 @@ body {
     z-index: -4;
     align-items: center;
 }
-
+.author,
+.date{
+    font-weight: 700;
+}
 .gallery-figure{
     margin-bottom: -100px;
 }
 .gallery-figure p{
     color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    bottom: -10px;
+   
 }
 .gallery-figcaption{
     color: rgb(0, 0, 0);
     z-index: 10;
     padding: 15px 0;
     text-align: center;
-    margin-left: -40px;
-    text-align: center;
-    line-height: 15px;
+    margin-left: 20px;
     font-size: 20px;
-  top: 20px;
+    position: absolute;
+    top: 0;
 
 }
 sub{
     font-weight: 500;
+}
+a{
+    color: #d87093
 }
 @media (min-width: 576px) {
     .gallery {
@@ -113,5 +122,15 @@ sub{
         align-items: center;
         justify-content: center;
     }
-
+    .gallery-figcaption{
+        color: #fff;
+        top: 250px;
+        margin: 10px;
+    
+    }
+    .gallery-figure p{
+        color: #fff;
+        bottom: 5px;
+       margin: 10px;
+    }
 }
