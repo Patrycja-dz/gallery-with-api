@@ -12,13 +12,16 @@ const SinglePhoto = ({ url, description, author, data, alt }) => {
   // };
   //  const [isDescription, setDescription] = useState('')
 
+
   return (
     <>
-        <figure className="gallery-figure">
-          <img src={url} className="gallery-image"  alt = {alt}/>
-          <p>by<sub>{author}</sub> on <sub>{data}</sub></p>
-         <figcaption className="gallery-figcaption">{description}</figcaption>
-        </figure>
+      <figure className="gallery-figure">
+        <img src={url} className="gallery-image" alt={alt} />
+        <p>
+          by <sub>{author} </sub> on <sub>{data}</sub>
+        </p>
+        <figcaption className="gallery-figcaption">{description}</figcaption>
+      </figure>
     </>
   );
 };
