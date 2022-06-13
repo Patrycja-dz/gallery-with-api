@@ -1,6 +1,6 @@
 import React from "react";
 
-const SinglePhoto = ({ url, description, author, data }) => {
+const SinglePhoto = ({ url, description, author, data, alt }) => {
   // const truncate = (str) => {
   //   if (str === null) {
   //     str = "Lorem ipsum";
@@ -14,19 +14,11 @@ const SinglePhoto = ({ url, description, author, data }) => {
 
   return (
     <>
-      <div className="gallery-content">
         <figure className="gallery-figure">
-          <img src={url} alt="" className="gallery-image" />
-         <div className="gallery-shadow">
-         <figcaption className="gallery-figcaption">{description}
-          <p>
-            by <sub>{author}</sub> on <sub>{data}</sub>
-          </p>
-          </figcaption>
-         </div>
-         
+          <img src={url} className="gallery-image"  alt = {alt}/>
+          <p>by<sub>{author}</sub> on <sub>{data}</sub></p>
+         <figcaption className="gallery-figcaption">{description}</figcaption>
         </figure>
-      </div>
     </>
   );
 };

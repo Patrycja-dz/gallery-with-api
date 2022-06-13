@@ -29,9 +29,10 @@ function Gallery() {
   return (
     <>
       <div className="gallery">
-      {images.map(image => (
-         <SinglePhoto url={image.urls.small} key={image.id} description = {image.description} author={image.user.name} data={image.created_at}/>
-    
+      {images && images.map(image => (
+        <div className="gallery-wrapper" key={image.id}>
+         <SinglePhoto url={image.urls.small} alt={image.alt_description} description = {image.description} author={image.user.name} data={image.created_at}/>
+    </div>
        ))}
       </div>
     </>
