@@ -31,7 +31,8 @@ function Gallery() {
         {images &&
           images.map((image) => (
             <div className="gallery-wrapper">
-              <SinglePhoto key={image.id} image={image} />
+
+              <SinglePhoto key={image.id} image={image} url={image.urls.small}/>
             </div>
           ))}
       </div>
