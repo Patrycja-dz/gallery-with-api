@@ -1,8 +1,6 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
-import SinglePhoto  from "../components/SinglePhoto";
-
-
+import SinglePhoto from "../components/SinglePhoto";
 
 function Gallery() {
   const [images, setImages] = useState([]);
@@ -27,19 +25,18 @@ function Gallery() {
     fetchImages();
   }, []);
 
-
   return (
     <>
       <div className="gallery">
-      {images && images.map(image => (
-        <div className="gallery-wrapper" >
-         <SinglePhoto  key={image.id}   image={image}/>
-    </div>
-       ))}
+        {images &&
+          images.map((image) => (
+            <div className="gallery-wrapper">
+              <SinglePhoto key={image.id} image={image} />
+            </div>
+          ))}
       </div>
     </>
   );
-  
 }
 
 export default Gallery;

@@ -73,7 +73,8 @@ sub{
     font-weight: 500;
 }
 a{
-    color: #d87093
+    color: #d87093;
+    text-decoration: underline;
 }
 @media (min-width: 576px) {
     .gallery {
