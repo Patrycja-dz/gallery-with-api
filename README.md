@@ -15,11 +15,13 @@ I chose React as my  3rd party library.
 </p>
 
 ## Used concepts
-✅ Hooks : useState, useEffecte<br>
+✅ Hooks : useState, useEffect<br>
 ✅ Fetch Api<br>
 ✅ AXIOS<br>
 ✅ ES6 + features <br>
 ✅ Flexbox <br>
+✅ Grid <br>
+✅ RWD <br>
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
