@@ -126,11 +126,18 @@ a{
         color: #fff;
         top: 250px;
         margin: 10px;
+        max-width: 100%;
     
     }
     .gallery-figure p{
         color: #fff;
         bottom: 5px;
        margin: 10px;
+    }
+}
+@media  (min-width: 768px){
+    .gallery-figcaption{
+        top: 180px;
+     
     }
 }
